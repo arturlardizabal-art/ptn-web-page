@@ -174,40 +174,6 @@
 <body>
   <div id="__bundler_loading" aria-live="polite">
     <span id="__bundler_status" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;">Cargando PTN...</span>
-    <header class="ptn-shell-top">
-      <img class="ptn-shell-logo" src="assets/bundle/550ad7b4-fc55-4a1b-95e3-66252d1c7d18.png" alt="PTN">
-      <nav class="ptn-shell-nav" aria-label="Principal">
-        <span>Inicio</span>
-        <span>Servicios</span>
-        <span>Clientes</span>
-        <span>Contacto</span>
-      </nav>
-    </header>
-    <main>
-      <section class="ptn-shell-main">
-        <div>
-          <p class="ptn-shell-kicker">Monterrey, Mexico - soluciones textiles B2B</p>
-          <h1 class="ptn-shell-title">Uniformes y soluciones textiles para la industria.</h1>
-          <p class="ptn-shell-copy">Uniformes ejecutivos, industriales y casuales, personalizacion de alta calidad y materia prima textil al mayoreo. Enviamos a todo Mexico.</p>
-          <div class="ptn-shell-actions">
-            <a class="ptn-shell-btn" href="mailto:ventas@ptntextiles.com">Solicitar cotizacion</a>
-            <a class="ptn-shell-btn secondary" href="#servicios">Ver servicios</a>
-          </div>
-        </div>
-        <aside class="ptn-shell-panel" aria-label="Capacidades PTN">
-          <div class="ptn-shell-card">
-            <strong>Cotizacion en menos de 24 horas</strong>
-            <span>Bordado, serigrafia, DTF, sublimado, programas empresariales y distribucion nacional.</span>
-          </div>
-        </aside>
-      </section>
-      <section id="servicios" class="ptn-shell-blocks" aria-label="Servicios principales">
-        <div class="ptn-shell-block"><b>01</b><span>Uniformes empresariales</span></div>
-        <div class="ptn-shell-block"><b>02</b><span>Personalizacion textil</span></div>
-        <div class="ptn-shell-block"><b>03</b><span>Materia prima al mayoreo</span></div>
-        <div class="ptn-shell-block"><b>04</b><span>Envios a todo Mexico</span></div>
-      </section>
-    </main>
   </div>
 
   <script>
@@ -325,49 +291,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       'image-slot { display: block; width: 100%; height: 100%; }',
       'image-slot { display: block; width: 100%; height: 100%; }\\n    main > section + section, footer { content-visibility: auto; contain-intrinsic-size: 1px 720px; }\\n    [data-hero], [data-topbar], [data-navrow] { content-visibility: visible; contain-intrinsic-size: auto; }'
     );
-    const fallbackMarkup = `
-<div id="ptn-template-fallback" style="min-height:100vh;color:#191A2E;background:#F6F6F3;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
-  <style>
-    #ptn-template-fallback *{box-sizing:border-box}
-    #ptn-template-fallback .top{display:flex;align-items:center;justify-content:space-between;min-height:84px;padding:14px clamp(20px,5vw,72px);border-bottom:1px solid #E0E0D8;background:#fff}
-    #ptn-template-fallback .logo{width:118px;height:auto;display:block}
-    #ptn-template-fallback .nav{display:flex;gap:18px;color:#45465A;font-size:14px;font-weight:600}
-    #ptn-template-fallback .hero{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(280px,.92fr);gap:clamp(32px,6vw,84px);align-items:center;max-width:1180px;margin:0 auto;padding:clamp(44px,8vw,92px) clamp(20px,5vw,72px) 36px}
-    #ptn-template-fallback .kicker{color:#2E2A80;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin:0 0 18px}
-    #ptn-template-fallback h1{max-width:760px;margin:0;font-size:clamp(38px,6vw,78px);line-height:.94;letter-spacing:0;font-weight:800;color:#191A2E}
-    #ptn-template-fallback .copy{max-width:620px;margin:24px 0 0;color:#45465A;font-size:clamp(17px,2vw,21px);line-height:1.55}
-    #ptn-template-fallback .actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}
-    #ptn-template-fallback .btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border:1px solid #2E2A80;color:#fff;background:#2E2A80;font-weight:800;font-size:14px;text-decoration:none}
-    #ptn-template-fallback .btn.secondary{color:#2E2A80;background:transparent}
-    #ptn-template-fallback .panel{min-height:390px;display:grid;align-content:end;gap:12px;padding:28px;color:#fff;background:linear-gradient(155deg,rgba(25,26,46,.12),rgba(25,26,46,.76)),#2E2A80;overflow:hidden}
-    #ptn-template-fallback .card{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);padding:18px;backdrop-filter:blur(10px)}
-    #ptn-template-fallback .card strong{display:block;font-size:20px;margin-bottom:6px}
-    #ptn-template-fallback .card span{display:block;font-size:14px;line-height:1.5;color:rgba(255,255,255,.82)}
-    #ptn-template-fallback .blocks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));max-width:1180px;margin:0 auto;padding:0 clamp(20px,5vw,72px) 54px;gap:1px}
-    #ptn-template-fallback .block{min-height:126px;padding:22px;background:#fff;border:1px solid #E0E0D8}
-    #ptn-template-fallback .block b{display:block;color:#2E2A80;font-size:12px;margin-bottom:10px}
-    #ptn-template-fallback .block span{display:block;color:#191A2E;font-size:17px;font-weight:800;line-height:1.25}
-    @media (max-width:820px){#ptn-template-fallback .nav{display:none}#ptn-template-fallback .hero{grid-template-columns:1fr;padding-top:34px}#ptn-template-fallback .panel{min-height:260px}#ptn-template-fallback .blocks{grid-template-columns:1fr 1fr}}
-    @media (max-width:520px){#ptn-template-fallback .blocks{grid-template-columns:1fr}#ptn-template-fallback .actions{flex-direction:column;align-items:stretch}}
-  </style>
-  <header class="top"><img class="logo" src="${assetUrls['550ad7b4-fc55-4a1b-95e3-66252d1c7d18']}" alt="PTN"><nav class="nav" aria-label="Principal"><span>Inicio</span><span>Servicios</span><span>Clientes</span><span>Contacto</span></nav></header>
-  <main>
-    <section class="hero">
-      <div><p class="kicker">Monterrey, Mexico - soluciones textiles B2B</p><h1>Uniformes y soluciones textiles para la industria.</h1><p class="copy">Uniformes ejecutivos, industriales y casuales, personalizacion de alta calidad y materia prima textil al mayoreo. Enviamos a todo Mexico.</p><div class="actions"><a class="btn" href="mailto:ventas@ptntextiles.com">Solicitar cotizacion</a><a class="btn secondary" href="#servicios">Ver servicios</a></div></div>
-      <aside class="panel" aria-label="Capacidades PTN"><div class="card"><strong>Cotizacion en menos de 24 horas</strong><span>Bordado, serigrafia, DTF, sublimado, programas empresariales y distribucion nacional.</span></div></aside>
-    </section>
-    <section id="servicios" class="blocks" aria-label="Servicios principales"><div class="block"><b>01</b><span>Uniformes empresariales</span></div><div class="block"><b>02</b><span>Personalizacion textil</span></div><div class="block"><b>03</b><span>Materia prima al mayoreo</span></div><div class="block"><b>04</b><span>Envios a todo Mexico</span></div></section>
-  </main>
-</div>
-<script>
-(function(){
-  var fallback = document.getElementById('ptn-template-fallback');
-  if (!fallback) return;
-  fallback.setAttribute('data-ready', '1');
-})();
-</` + `script>
-`;
-    template = template.replace('<body>\\n', '<body>\\n' + fallbackMarkup);
+    const fallbackMarkup = '';
 
     // Strip integrity + crossorigin — blob URLs from a file:// document inherit
     // a null origin, so crossorigin forces a CORS fetch that SRI then rejects.
@@ -394,9 +318,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     // preserve ordering (React before ReactDOM before Babel before text/babel).
     const doc = new DOMParser().parseFromString(template, 'text/html');
     document.documentElement.replaceWith(doc.documentElement);
-    if (!document.getElementById('ptn-template-fallback')) {
-      document.body.insertAdjacentHTML('afterbegin', fallbackMarkup);
-    }
     const dead = Array.from(document.scripts);
     for (const old of dead) {
       const s = document.createElement('script');
