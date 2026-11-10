@@ -1,0 +1,268 @@
+[
+  {
+    "path": "/",
+    "alternates": {
+      "es": "/",
+      "en": "/en/"
+    }
+  },
+  {
+    "path": "/servicios/",
+    "alternates": {
+      "es": "/servicios/",
+      "en": "/en/services/"
+    }
+  },
+  {
+    "path": "/contacto/",
+    "alternates": {
+      "es": "/contacto/",
+      "en": "/en/contact/"
+    }
+  },
+  {
+    "path": "/nosotros/",
+    "alternates": {
+      "es": "/nosotros/",
+      "en": "/en/about/"
+    }
+  },
+  {
+    "path": "/clientes/",
+    "alternates": {
+      "es": "/clientes/",
+      "en": "/en/clients/"
+    }
+  },
+  {
+    "path": "/distribuidores/",
+    "alternates": {
+      "es": "/distribuidores/",
+      "en": "/en/brands/"
+    }
+  },
+  {
+    "path": "/servicios/uniformes-empresariales/",
+    "alternates": {
+      "es": "/servicios/uniformes-empresariales/",
+      "en": "/en/services/corporate-uniforms/"
+    }
+  },
+  {
+    "path": "/servicios/uniformes-industriales/",
+    "alternates": {
+      "es": "/servicios/uniformes-industriales/",
+      "en": "/en/services/industrial-uniforms/"
+    }
+  },
+  {
+    "path": "/servicios/uniformes-ejecutivos/",
+    "alternates": {
+      "es": "/servicios/uniformes-ejecutivos/",
+      "en": "/en/services/executive-uniforms/"
+    }
+  },
+  {
+    "path": "/servicios/uniformes-casuales/",
+    "alternates": {
+      "es": "/servicios/uniformes-casuales/",
+      "en": "/en/services/casual-uniforms/"
+    }
+  },
+  {
+    "path": "/servicios/personalizacion-textil/",
+    "alternates": {
+      "es": "/servicios/personalizacion-textil/",
+      "en": "/en/services/textile-customization/"
+    }
+  },
+  {
+    "path": "/servicios/bordado/",
+    "alternates": {
+      "es": "/servicios/bordado/",
+      "en": "/en/services/embroidery/"
+    }
+  },
+  {
+    "path": "/servicios/serigrafia/",
+    "alternates": {
+      "es": "/servicios/serigrafia/",
+      "en": "/en/services/screen-printing/"
+    }
+  },
+  {
+    "path": "/servicios/impresion-dtf/",
+    "alternates": {
+      "es": "/servicios/impresion-dtf/",
+      "en": "/en/services/dtf-printing/"
+    }
+  },
+  {
+    "path": "/servicios/sublimacion/",
+    "alternates": {
+      "es": "/servicios/sublimacion/",
+      "en": "/en/services/sublimation/"
+    }
+  },
+  {
+    "path": "/servicios/materia-prima-textil/",
+    "alternates": {
+      "es": "/servicios/materia-prima-textil/",
+      "en": "/en/services/wholesale-textile-materials/"
+    }
+  },
+  {
+    "path": "/servicios/diseno-y-confeccion/",
+    "alternates": {
+      "es": "/servicios/diseno-y-confeccion/",
+      "en": "/en/services/custom-garment-manufacturing/"
+    }
+  },
+  {
+    "path": "/servicios/programas-de-uniformes/",
+    "alternates": {
+      "es": "/servicios/programas-de-uniformes/",
+      "en": "/en/services/uniform-supply-programs/"
+    }
+  },
+  {
+    "path": "/servicios/distribucion-multisucursal/",
+    "alternates": {
+      "es": "/servicios/distribucion-multisucursal/",
+      "en": "/en/services/multi-location-distribution/"
+    }
+  },
+  {
+    "path": "/en/",
+    "alternates": {
+      "es": "/",
+      "en": "/en/"
+    }
+  },
+  {
+    "path": "/en/services/",
+    "alternates": {
+      "es": "/servicios/",
+      "en": "/en/services/"
+    }
+  },
+  {
+    "path": "/en/contact/",
+    "alternates": {
+      "es": "/contacto/",
+      "en": "/en/contact/"
+    }
+  },
+  {
+    "path": "/en/about/",
+    "alternates": {
+      "es": "/nosotros/",
+      "en": "/en/about/"
+    }
+  },
+  {
+    "path": "/en/clients/",
+    "alternates": {
+      "es": "/clientes/",
+      "en": "/en/clients/"
+    }
+  },
+  {
+    "path": "/en/brands/",
+    "alternates": {
+      "es": "/distribuidores/",
+      "en": "/en/brands/"
+    }
+  },
+  {
+    "path": "/en/services/corporate-uniforms/",
+    "alternates": {
+      "es": "/servicios/uniformes-empresariales/",
+      "en": "/en/services/corporate-uniforms/"
+    }
+  },
+  {
+    "path": "/en/services/industrial-uniforms/",
+    "alternates": {
+      "es": "/servicios/uniformes-industriales/",
+      "en": "/en/services/industrial-uniforms/"
+    }
+  },
+  {
+    "path": "/en/services/executive-uniforms/",
+    "alternates": {
+      "es": "/servicios/uniformes-ejecutivos/",
+      "en": "/en/services/executive-uniforms/"
+    }
+  },
+  {
+    "path": "/en/services/casual-uniforms/",
+    "alternates": {
+      "es": "/servicios/uniformes-casuales/",
+      "en": "/en/services/casual-uniforms/"
+    }
+  },
+  {
+    "path": "/en/services/textile-customization/",
+    "alternates": {
+      "es": "/servicios/personalizacion-textil/",
+      "en": "/en/services/textile-customization/"
+    }
+  },
+  {
+    "path": "/en/services/embroidery/",
+    "alternates": {
+      "es": "/servicios/bordado/",
+      "en": "/en/services/embroidery/"
+    }
+  },
+  {
+    "path": "/en/services/screen-printing/",
+    "alternates": {
+      "es": "/servicios/serigrafia/",
+      "en": "/en/services/screen-printing/"
+    }
+  },
+  {
+    "path": "/en/services/dtf-printing/",
+    "alternates": {
+      "es": "/servicios/impresion-dtf/",
+      "en": "/en/services/dtf-printing/"
+    }
+  },
+  {
+    "path": "/en/services/sublimation/",
+    "alternates": {
+      "es": "/servicios/sublimacion/",
+      "en": "/en/services/sublimation/"
+    }
+  },
+  {
+    "path": "/en/services/wholesale-textile-materials/",
+    "alternates": {
+      "es": "/servicios/materia-prima-textil/",
+      "en": "/en/services/wholesale-textile-materials/"
+    }
+  },
+  {
+    "path": "/en/services/custom-garment-manufacturing/",
+    "alternates": {
+      "es": "/servicios/diseno-y-confeccion/",
+      "en": "/en/services/custom-garment-manufacturing/"
+    }
+  },
+  {
+    "path": "/en/services/uniform-supply-programs/",
+    "alternates": {
+      "es": "/servicios/programas-de-uniformes/",
+      "en": "/en/services/uniform-supply-programs/"
+    }
+  },
+  {
+    "path": "/en/services/multi-location-distribution/",
+    "alternates": {
+      "es": "/servicios/distribucion-multisucursal/",
+      "en": "/en/services/multi-location-distribution/"
+    }
+  }
+]
