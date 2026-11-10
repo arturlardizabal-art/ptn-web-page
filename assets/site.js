@@ -6,10 +6,15 @@
   const nav = document.querySelector('#site-nav');
   if (header && toggle && nav) {
     header.classList.add('js-ready');
-    const close = () => { toggle.setAttribute('aria-expanded', 'false'); nav.classList.remove('is-open'); };
+    const setMenu = open => {
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.setAttribute('aria-label', en ? (open ? 'Close menu' : 'Open menu') : (open ? 'Cerrar menú' : 'Abrir menú'));
+      nav.classList.toggle('is-open', open);
+    };
+    const close = () => setMenu(false);
     toggle.addEventListener('click', () => {
       const open = toggle.getAttribute('aria-expanded') !== 'true';
-      toggle.setAttribute('aria-expanded', String(open)); nav.classList.toggle('is-open', open);
+      setMenu(open);
     });
     document.addEventListener('keydown', e => { if (e.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {close();toggle.focus();} });
     nav.addEventListener('click', e => {if(e.target.closest('a'))close();});

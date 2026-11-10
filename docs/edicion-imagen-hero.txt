@@ -1,0 +1,8 @@
+Mode: built-in image_gen (edit)
+Date: 2026-11-10
+Edit target: assets/bundle/65ec81c5-7273-458c-8e54-8ea21f22d785.png
+Saved source: assets/source/soluciones-textiles-sin-texto.png
+Web asset: assets/media/soluciones-textiles-sin-texto-3822154495.webp
+
+Prompt:
+Use case: precise-object-edit. Asset type: existing PTN textile workshop website photograph. Edit target: the referenced original image, not the screenshot of the website. Remove every piece of visible lettering and written text from this image: the left hanging sign 'ALMACÉN DE TELAS', the right hanging sign 'AMAQUILA DE BORDADO', the central words 'CALIDAD PRECISIÓN COMPROMISO', and any small printed text/brand letters on the embroidery machines and boxes. Reconstruct the same dark sign surfaces and wall naturally, with matching light, texture and perspective. Keep the white outline sewing-needle graphic on the center wall; it is a drawing, not lettering. Preserve the original camera angle, 3:2 landscape composition, embroidery machines, racks, fabrics, spools, floor, lighting and color grading as closely as possible. Do not add or move any object. No new words, letters, numbers, banners, captions, watermark or overlays. The result must remain the same photograph with only the lettering removed.
